@@ -1,2 +1,4 @@
-# add-two-numbers.py
-write a program that add two numbers
+ t = int(input())
+for i in range(0,t):
+    a,b = map(int,input().split())
+    print(a+b)
